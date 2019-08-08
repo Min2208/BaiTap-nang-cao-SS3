@@ -7,8 +7,8 @@
 <body onload="running()">
     <img id="img" src="img/oto.jpg" style="width: 10%; height: 10%;left: 0; top: 0; position: absolute;">
 <script>
-    let maxWidth = window.innerWidth;
-    let maxHeight = window.innerHeight;
+    let maxWidth = window.innerWidth - 150;
+    let maxHeight = window.innerHeight - 100;
     let run = document.getElementById('img');
     let autorun = setInterval(running, 200);
     function running() {
